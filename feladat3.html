@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feladat 3.</title>
+    <title>3. feladat</title>
 </head>
 <body>
     <p id="bekezdes">...</p>
-    <img onload="betolt" style="width: 300px;" src="./How-to-Fix-Windows-11-Stopped-Booting-After-Restart.jpg" alt="win11" onclick="change_text()">
+    <img onload="betolt()" style="width: 500px;" src="./How-to-Fix-Windows-11-Stopped-Booting-After-Restart.jpg" alt="win11" onclick="change_text()">
     <script>
         function change_text(){
-            document.getElementById("bekezdes").innerHTML = "Rákattintottál!";
+            document.getElementById("bekezdes").innerHTML = "Rákattintott!";
             }
         
-        function betolt() {
-             document.getElementById("demo").innerHTML = "Betöltött!";
+        function betolt(){
+             document.getElementById("bekezdes").innerHTML = "Betöltődött!";
             }
     </script>
 </body>
